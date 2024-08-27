@@ -3,7 +3,7 @@
 class print
 {
 public:
-	static void printint(const int* number)
+	static void printint(int number)
 	{
 		std::cout << number << std::endl;
 	}
@@ -11,7 +11,7 @@ public:
 	{
 		std::cout << str << std::endl;
 	}
-	 static void printfloat(const float* floatnumber)
+	 static void printfloat(float floatnumber)
 	{
 		std::cout << floatnumber << std::endl;
 	}
