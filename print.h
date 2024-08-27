@@ -3,21 +3,15 @@
 class print
 {
 public:
-	static void printint(int number)
+	static bool printchar;
+	static bool printint;
+	static bool printfloat;	
+	print()
 	{
-		std::cout << number << std::endl;
+		printchar = 0;
+		printint = 0;
+		printfloat = 0;
 	}
-	static void printchar(const char* str)
-	{
-		std::cout << str << std::endl;
-	}
-	 static void printfloat(float floatnumber)
-	{
-		std::cout << floatnumber << std::endl;
-	}
-	 static void printend()
-	{
-		std::cin.get();
-	}
+	void set()
 };
 
