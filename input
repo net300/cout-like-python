@@ -1,0 +1,23 @@
+#pragma once
+#include <iostream>
+class input
+{
+public:
+    static char Char;static int Int;static float Float;
+    static void putchar()
+    {
+        std::cin >> Char;
+    }
+    static void putint()
+    {
+        std::cin >> Int;
+    }
+    static void putfloat()
+    {
+        std::cin >> Float;
+    }
+    static void returnline()
+	{
+		std::cout<<std::endl;
+	}
+};

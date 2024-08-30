@@ -1,0 +1,27 @@
+#pragma once
+#include <iostream>
+class output
+{
+public:
+	static void putint(int number)
+	{
+		std::cout << number;
+	}
+	static void putchar(const char* str)
+	{
+		std::cout << str;
+	}
+	static void putfloat(float floatnumber)
+	{
+		std::cout << floatnumber;
+	}
+	static void putend()
+	{
+		std::cin.get();
+	}
+	static void returnline()
+	{
+		std::cout<<std::endl;
+	} 
+};
+
